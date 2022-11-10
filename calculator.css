@@ -55,10 +55,14 @@ button {
     font-family: 'Arimo', sans-serif;
 font-family: 'Inter', sans-serif;
 font-family: 'Poppins', sans-serif;
+transition: opacity 0.5s;
 
 }
 button:hover{
-    opacity:0.5;
+    opacity: 0.8;
+}
+button.active{
+    opacity: 0.5;
 }
 
 @media screen and (max-width:400px) {
